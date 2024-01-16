@@ -6,6 +6,7 @@
     margin: 0 auto;
     padding: 0;
 }
+/* nav manu style */
 .logo{
      display: inline-flex;
     gap: 20px;
@@ -136,6 +137,7 @@
 .second-img{
     display: grid;
     gap: 20px;
+
 }
 .img1{
     display: flex;
@@ -168,9 +170,14 @@
 }
 .second-title h2{
     text-align: center;
+    font-size: 2.5rem;
+    padding: 40px 0 10px 0;
 }
 .second-title p{
     text-align: center;
+    font-size: 1rem;
+    padding:  0 0 40px 0;
+
 }
 /* third section style */
 .card-section{
@@ -251,6 +258,39 @@ background: rgba(233, 68, 68, 0.05);
 .card1 p{
     font-size: 1rem;
     color: #5A5A5D;
+}
+/* Furth section style */
+.furth-section{
+    display: flex;
+    margin: 30px 40px;
+}
+.furth-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+
+}
+.furth-des{
+    font-size: 1rem;
+    color: #5A5A5D;
+}
+.furth-container li{
+    color: #131318;
+    font-size: 1rem;
+    padding: 10px;
+
+}
+.furth-container ul{
+    padding: 10px;
+}
+.furth-btn{
+    background: #FF5400;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
 }
 /* Last contend section style */
 .last-contend{
@@ -370,6 +410,16 @@ background: rgba(233, 68, 68, 0.05);
     .first-section,
     .last-contend{
         flex-direction: column;
+    }
+    .logo{
+        display: inline-flex;
+        font-size: 0.8rem;
+    }
+    .logo > .footer-img{
+        height: 30px;
+    }
+    .nav-manu{
+        visibility: hidden;        
     }
     .first-section{
         height: 100%;
