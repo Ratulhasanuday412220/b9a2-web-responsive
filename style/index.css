@@ -7,6 +7,9 @@
     padding: 0;
 }
 /* nav manu style */
+.nav-span{
+    color: #FF5400;
+}
 .logo{
      display: inline-flex;
     gap: 20px;
