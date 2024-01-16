@@ -1,0 +1,468 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo{
+     display: inline-flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.logo img{
+    height: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    gap: 100px;
+
+}
+.nav-manu a{
+    text-decoration: none;
+    color: #424247;
+}
+.nav li{
+    list-style: none;
+    display: inline;
+    margin:0 20px;
+}
+.banner{
+    background: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+}
+.banner h2{
+    font-size: 4rem;
+    font-weight: 800px;
+    color: #fff;
+    padding-top: 100px;
+}
+.banner p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 250px;
+    margin-top: 24px;
+}
+/* banner form style */
+.banner-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #ffffff60;
+    width: 700px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.banner-input{
+    width: 150px;
+    height: 45px;
+    color: #13131880;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 8px;
+}
+.banner-button{
+    display: flex;
+    gap: 10px;
+    background-color: #FF5400;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+}
+/* first section style */
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0;
+    height: 550px;
+}
+.first-section-content{
+    width:50%;
+}
+/* .first-section-img{
+    width: 540px;
+    height: 550px;
+
+} */
+.first-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 24px;
+    color: #131318;
+}
+.first-p, ul{
+    color: #5A5A5D;
+}
+.first-p{
+    padding: 24px 0;
+    line-height: 30px;
+}
+.first-section ul{
+    padding:0 30px;
+    line-height: 30px;
+}
+.first-section ul>li{
+    padding-bottom: 10px;
+}
+.first-section-button{
+    background: #FF5400;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+/* Second section style */
+
+.second-container1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+.second-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.second-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    width: 100%;
+}
+.container1-img1{
+    width: 550px;
+    height: 300px;
+}
+.container1-img1 img{
+    width: 100%;
+    height: 100%;
+}
+.container1-img2{
+    width: 550px;
+    height: 300px;
+}
+.container1-img2 img{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.center-aline{
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+/* third section style */
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin: 40px;
+}
+.card-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+.card-des{
+   font-size: 1rem;
+    text-align: center;
+    margin: 25px 0 48px 0;
+    font-weight: 400;
+}
+.card{
+    width: 573px;
+    height: 200px;
+    padding: 40px;
+    border: 2px solid firebrick;
+
+}
+.card h3{
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: #131318;
+}
+.card p{
+    font-size: 1rem;
+    color: #5A5A5D;
+}
+.card:first-child{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    
+    background: rgba(251, 181, 99, 0.05);
+    
+    
+}
+.card:last-child{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+
+
+}
+.card img{
+    width: 60px;
+    height: 60px;
+}
+.card1{
+    width: 573px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
+
+
+}
+.card1 img{
+    width: 60px;
+    height: 60px;
+}
+.card1 h3{
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: #131318;
+
+}
+.card1 p{
+    font-size: 1rem;
+    color: #5A5A5D;
+}
+/* Last contend section style */
+.last-contend{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.last-container{
+    border-radius: 16px;
+    border: 1px solid #FF5400;;
+    padding: 50px;
+    height: 325px;
+}
+
+
+.last-div{
+    background: #FF5400;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    transform: rotate(-25.628deg);
+    bottom: 145px;
+    left: 210px;
+}
+.last-div h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.last-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    padding: 20px 0;
+}
+.last-dep{
+    font-size: 1rem;
+    padding: 24px 0;
+}
+.last-form{
+    color: #1313184D;
+    padding: 20px 0;
+}
+.last-form input{
+    width: 360px;
+    padding: 20px;
+    border: none;
+    background-color: #1313180D;
+    margin: 4px 0;
+    border-radius: 8px;
+}
+.last-form > .last-btn{
+    width: 400px;
+    background: #FF5400;
+    color:#fff;
+}
+/* footer style */
+.footer{
+    
+    text-align: center;
+}
+.footer-title{
+ display: inline-flex;
+    gap: 20px;
+    font-size: 2rem;
+    padding: 30px 0 0 0;
+
+}
+.span{
+    color: #FF5400;
+    margin-left: 5px;
+
+}
+.footer-title img{
+    height: 40px;
+}
+.footer-title h2{
+    font-size: 2rem;
+    color: #000;
+    margin: 0 auto -10px auto;
+}
+.footer{
+    background: #1313180D;
+}
+.icon{
+    padding: 10px 0 10px 0;
+}
+.footer p{
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiv mobile veiw */
+@media screen and (max-width:600px) {
+    body{
+        margin: 20px 20px;
+    }
+    .banner-form,
+    .banner,
+    .card-section,
+    .first-section,
+    .last-contend{
+        flex-direction: column;
+    }
+    .first-section{
+        height: 100%;
+    }
+    .banner h2{
+        font-size: 2rem;
+        padding: 32px;
+    }
+    .banner p{
+        padding: 0;
+        margin-top: 5px;
+    }
+    .banner-form{
+        width: 200px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .banner-input,
+    .banner-button{
+        width: 190px;
+    }
+    .first-section{
+        margin: 10px;
+    }
+    .first-section-img{
+        width: 100%;
+    }
+    .first-section-img img{
+        width: 100%;
+    }
+    .first-section-content{
+        width: 100%;
+    }
+    .second-img img {
+        width: 100%;
+        grid-row: 1;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+        margin: 5px; ;
+    }
+    .card1{
+        width: 85%;
+        height: 100%;
+        margin: 3px;
+    }
+    .last-img img{
+        width:100%;
+        margin: 10px;
+    }
+    .last-div{
+        background: #FF5400;
+        color: #fff;
+        text-align: center;
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+        position: relative;
+        transform: rotate(-25.628deg);
+        bottom: 130px;
+        left: 75px;
+    
+    }
+    .last-div h2{
+        font-size: 0.9rem;
+    }
+    .last-container{
+        width: 90%;
+        padding: 8px;
+    }
+    .last-container input{
+        width: 295px;
+        padding: 20px;
+    }
+    .last-container h2{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .last-container > .last-dep{
+        padding: 10px;
+    }
+    .last-form>.last-btn{
+        width: 335px;
+    }
+}
