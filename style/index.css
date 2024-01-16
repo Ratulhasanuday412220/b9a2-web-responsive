@@ -295,6 +295,9 @@ background: rgba(233, 68, 68, 0.05);
     border: none;
     border-radius: 8px;
 }
+.furth-contend video{
+    border-radius: 30PX;
+}
 /* Last contend section style */
 .last-contend{
     display: flex;
@@ -411,7 +414,8 @@ background: rgba(233, 68, 68, 0.05);
     .banner,
     .card-section,
     .first-section,
-    .last-contend{
+    .last-contend,
+    .furth-section{
         flex-direction: column;
     }
     .logo{
@@ -469,6 +473,15 @@ background: rgba(233, 68, 68, 0.05);
         width: 85%;
         height: 100%;
         margin: 3px;
+    }
+
+    .furth-contend video{
+        width: 100%;
+        border-radius: 30px;
+
+    }
+    .first-section{
+        margin: 10px;
     }
     .last-img img{
         width:100%;
